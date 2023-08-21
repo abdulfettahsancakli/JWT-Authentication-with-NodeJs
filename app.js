@@ -14,7 +14,7 @@ app.use(cookieParser());
 
 // view engine
 app.set("view engine", "ejs");
-const MONGODB_URL = process.env.mongodb;
+const MONGODB_URL = process.env.MONGODB;
 mongoose
   .connect(MONGODB_URL, {
     useNewUrlParser: true,
