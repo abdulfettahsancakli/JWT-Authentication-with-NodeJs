@@ -1,0 +1,77 @@
+<%- include('partials/header'); -%>
+
+<header>
+  <h2>Fetch Breweries</h2>
+  <form id="breweryForm">
+    <input type="text" id="breweryQuery" placeholder="Query">
+    <button type="submit">Fetch Breweries</button>
+  </form>
+
+  <div id="result" style="float:right;">
+    <table id="breweryTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Street</th>
+          <th>City</th>
+          <th>State / Province</th>
+          <th>Postal Code</th>
+          <th>Country</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Veriler buraya eklenecek -->
+      </tbody>
+    </table>
+  </div>
+</header>
+
+
+<script>
+  const breweryForm = document.getElementById('breweryForm');
+  const resultDiv = document.getElementById('result');
+
+  breweryForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const query = document.getElementById('breweryQuery').value;
+    
+    try {
+      const response = await fetch(`/breweries?query=${query}`);
+      const data = await response.json();
+      populateTable(data);
+    } catch (error) {
+      console.error(error);
+    }
+  });
+
+  function populateTable(data) {
+  const tableBody = document.querySelector('#breweryTable tbody');
+  tableBody.innerHTML = ''; // Tabloyu temizle
+
+  const limitedData = data.slice(0, 10); // İlk 10 veriyi al
+
+  limitedData.forEach(brewery => {
+    const row = document.createElement('tr');
+    const columns = [
+      'name',
+      'street',
+      'city',
+      'state',
+      'postal_code',
+      'country',
+      'brewery_type'
+    ];
+
+    columns.forEach(column => {
+      const cell = document.createElement('td');
+      cell.textContent = brewery[column];
+      row.appendChild(cell);
+    });
+
+    tableBody.appendChild(row);
+  });
+}
+</script>
+
+<%- include('partials/footer'); -%>
