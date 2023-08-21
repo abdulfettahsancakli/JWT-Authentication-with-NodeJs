@@ -5,8 +5,8 @@ const app = express();
 const cookieParser = require("cookie-parser");
 const { requireAuth, checkUser } = require("./middleware/authMiddleware");
 require("dotenv").config();
-const PORT = 3000;
 
+const PORT = process.env.PORT || 3000;
 // middleware
 app.use(express.static("public"));
 app.use(express.json());
