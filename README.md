@@ -15,7 +15,7 @@ LOGIN PAGE
  VALIDATION ERRORS
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
   <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/blob/main/images/ValidationErrors.png" alt="Login" width="30%" style="margin: 10px;">
-  <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/9d184e9d-7168-4ed9-bac8-d258dca5cc07" alt="Signup" width="30%" style="margin: 10px;">
+  <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/blob/main/images/ValidationErrors2.png" alt="Signup" width="30%" style="margin: 10px;">
   <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/blob/main/images/ValidationErrors3.png" alt="Login Error" width="30%" style="margin: 10px;">
 </div>
 
