@@ -12,9 +12,10 @@ SIGN UP PAGE
 LOGIN PAGE
 ![Login](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/b12b74c5-ac72-4241-938b-ad601ea4c4e8)
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;"> VALIDATION ERRORS
+ VALIDATION ERRORS
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
   <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/blob/main/images/ValidationErrors.png" alt="Login" width="30%" style="margin: 10px;">
-  <img src="![image](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/9d184e9d-7168-4ed9-bac8-d258dca5cc07)" alt="Signup" width="30%" style="margin: 10px;">
+  <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/9d184e9d-7168-4ed9-bac8-d258dca5cc07" alt="Signup" width="30%" style="margin: 10px;">
   <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/blob/main/images/ValidationErrors3.png" alt="Login Error" width="30%" style="margin: 10px;">
 </div>
 
