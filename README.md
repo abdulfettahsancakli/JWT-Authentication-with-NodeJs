@@ -12,11 +12,11 @@ SIGN UP PAGE
 LOGIN PAGE
 ![Login](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/b12b74c5-ac72-4241-938b-ad601ea4c4e8)
 
-VALIDATION ERRORS
-![ValidationErrors3](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/fc2f942b-16f3-41d0-b12a-a599b3d79170)
-![ValidationErrors](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/3626e470-d0cf-4d2e-8f6e-26c3548d1d7e)
-![ValidationErrors2](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/6002ba68-c4b8-406f-a189-9c53875b68db)
-
+<div style="display: flex; flex-wrap: wrap; justify-content: center;"> VALIDATION ERRORS
+  <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/blob/main/images/ValidationErrors.png" alt="Login" width="30%" style="margin: 10px;">
+  <img src="![image](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/9d184e9d-7168-4ed9-bac8-d258dca5cc07)" alt="Signup" width="30%" style="margin: 10px;">
+  <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/blob/main/images/ValidationErrors3.png" alt="Login Error" width="30%" style="margin: 10px;">
+</div>
 
 SUCCESSFUL LOGIN 
 ![SuccesfulLogin](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/1001f03d-3fa6-4e3d-940f-ee16b221a331)
