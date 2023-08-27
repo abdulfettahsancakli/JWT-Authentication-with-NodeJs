@@ -8,11 +8,11 @@ https://github.com/Madde22/backend-challenge iş ilanındaki istek için hazırl
 # Main Dashboard Page
 ![Dashboard](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/blob/main/images/Dashboard.png)
 
-# Sign Up Page
-![SignUp](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/349b13ed-3630-42f4-86f3-30df47b16320)
-
-# Login Page
-![Login](https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/assets/63500172/b12b74c5-ac72-4241-938b-ad601ea4c4e8)
+# Sign Up & Login Page
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/blob/main/images/SignUp.png" alt="Signup"  style="margin: 10px;">
+  <img src="https://github.com/abdulfettahsancakli/JWT-Authentication-with-NodeJs/blob/main/images/Login.png" alt="Login"  style="margin: 10px;">
+</div>
 
 # Validation Errors
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
